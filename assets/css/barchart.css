@@ -85,8 +85,8 @@ html {
   .chart-wrap .number {
     position: absolute;
     top: 0;
-    right: 0;
-    width: 30px;
+    right: 0px;
+    width: auto;
     font-size: 18px;
     line-height: 26px;
     font-weight: bold;

@@ -17,7 +17,7 @@ html {
   /* Chart Styles */
   .chart-wrap {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 3%;
     padding: 10px;
     border: 1px solid #eeeeee;
   }

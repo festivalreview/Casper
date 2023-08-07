@@ -8,7 +8,7 @@
         values.push($(this).data('value'));
       });
   
-      // Set max Value to 10
+      // Set max value to 10 (points)
       var max_value = 10;
   
       // Set width of bar to percent of max value

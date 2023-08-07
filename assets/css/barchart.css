@@ -42,7 +42,6 @@ html {
     top: 0;
     left: 0;
     height: 100%;
-    background: #f37167;
     transition: all 1s;
     transform: translateX(-100%);
   }
@@ -51,24 +50,43 @@ html {
   }
   .chart-wrap .row:nth-of-type(1) .bar {
     transition: 1s 400ms;
+    background: #f37167;
   }
   .chart-wrap .row:nth-of-type(2) .bar {
-    transition: 1s 600ms;
+    transition: 1s 700ms;
+    background: #ee6a69;
   }
   .chart-wrap .row:nth-of-type(3) .bar {
-    transition: 1s 800ms;
+    transition: 1s 1000ms;
+    background: #e9646a;
   }
   .chart-wrap .row:nth-of-type(4) .bar {
-    transition: 1s 1000ms;
+    transition: 1s 1300ms;
+    background: #e45d6c;
   }
   .chart-wrap .row:nth-of-type(5) .bar {
-    transition: 1s 1200ms;
+    transition: 1s 1500ms;
+    background: #de576e;
   }
   .chart-wrap .row:nth-of-type(6) .bar {
-    transition: 1s 1400ms;
+    transition: 1s 1700ms;
+    background: #d85270;
   }
   .chart-wrap .row:nth-of-type(7) .bar {
-    transition: 1s 1600ms;
+    transition: 1s 2300ms;
+    background: #d24c71;
+  }
+  .chart-wrap .row:nth-of-type(8) .bar {
+    transition: 1s 2600ms;
+    background: #cb4773;
+  }
+  .chart-wrap .row:nth-of-type(9) .bar {
+    transition: 1s 2900ms;
+    background: #c44275;
+  }
+  .chart-wrap .row:nth-of-type(10) .bar {
+    transition: 1s 2900ms;
+    background: #bc3e76;
   }
   .chart-wrap .label {
     position: absolute;

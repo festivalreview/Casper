@@ -7,15 +7,9 @@ html {
   *:after {
     box-sizing: inherit;
   }
-  @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: normal;
-    src: url(https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
-  }
+
   body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-sans);
     color: #4e555f;
     font-size: 14px;
   }

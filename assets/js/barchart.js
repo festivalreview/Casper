@@ -16,7 +16,6 @@
         var bar = $(this),
             value = bar.data('value'),
             percent = Math.ceil((value / max_value) * 100);
-  
         // Set Width & Add Class
         bar.width(percent + '%');
         bar.addClass('in');

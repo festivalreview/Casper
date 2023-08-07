@@ -8,8 +8,8 @@
         values.push($(this).data('value'));
       });
   
-      // Get Max Value From Array
-      var max_value = Math.max.apply(Math, values);
+      // Set max Value to 10
+      var max_value = 10;
   
       // Set width of bar to percent of max value
       $(wrapper + ' .bar').each(function(index, el) {

@@ -71,10 +71,10 @@ html {
   .chart-wrap .label {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 150px;
-    padding-left: 10px;
-    text-align: left;
+    left: 1%;
+    width: auto;
+    padding-left: 10px !important;
+    text-align: left !important;
     font-size: 12px;
     line-height: 26px;
     font-weight: bold;
@@ -85,11 +85,9 @@ html {
     top: 0;
     right: 0;
     width: 30px;
-    padding-right: 10px;
     font-size: 18px;
     line-height: 26px;
     font-weight: bold;
-    text-align: right;
     z-index: 10;
   }
   @media screen and (min-width: 800px) {

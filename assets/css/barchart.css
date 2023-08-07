@@ -8,11 +8,6 @@ html {
     box-sizing: inherit;
   }
 
-  body {
-    font-family: var(--font-sans);
-    color: #4e555f;
-    font-size: 14px;
-  }
   /* Bar Delays Animation Function */
   /* Chart Styles */
   .chart-wrap {
@@ -22,8 +17,9 @@ html {
     border: 1px solid #eeeeee;
   }
   .chart-wrap .chart-title {
-    margin-bottom: 10px;
-    font-size: 16px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
   }
@@ -81,7 +77,6 @@ html {
     text-align: left;
     font-size: 12px;
     line-height: 26px;
-    text-transform: uppercase;
     font-weight: bold;
     z-index: 10;
   }
